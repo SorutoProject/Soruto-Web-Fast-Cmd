@@ -1,0 +1,8 @@
+{
+	"q":{
+		"command":"move https://www.youtube.com/results?search_query=$arg-2"
+	},
+	"$else":{
+		"command":"move https://www.youtube.com"
+	}
+}

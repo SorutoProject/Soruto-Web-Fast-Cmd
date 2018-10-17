@@ -1,0 +1,15 @@
+<html>
+<head>
+<script src="lib/swf-cmd.js"></script>
+<script>
+window.onload = function(){
+	document.getElementById("cmdRun").addEventListener("click",function(){
+		swfCmd.appRun(document.getElementById("cmd").value);
+	});
+}	
+</script>
+</head>
+<body>
+<input type="text" id="cmd"><button id="cmdRun">実行</button>	
+</body>
+</html>
